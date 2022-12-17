@@ -4,7 +4,7 @@ import pandas as pd
 from collections import Counter
 import emoji
 import nltk
-
+nltk.download()
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 extract = URLExtract()
