@@ -3,10 +3,10 @@ from wordcloud import WordCloud
 import pandas as pd
 from collections import Counter
 import emoji
-#from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import nltk
-#nltk.download()
+nltk.download()
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+
 extract = URLExtract()
 
 def stats(selected_user,df):
